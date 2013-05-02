@@ -1,72 +1,163 @@
-<html lang= "en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>Manojmantra</title>
-<link rel= "stylesheet" href="stylesheets/style.css">
-</head>
-<body id="blog">
-<div class="head">
-<nav id="header">
-<center>
-<a href ="/"><font size=8 ><b>Manojmantra</b></font></a>
-<p><font size=6>Feel It My Way</font></p>
-</center>
-<br>
-<div class="main">
-<nav id="navigation">
-<font size="4" >
-<ul id="menu-page" class="menu">
-<li id="menu-1" class="current_page_item menu-item-home menu-1"><a href="/" >Home</a></li>
-<li id="menu-2" class="menu-item-2"><a href="about.html" >About</a></li>
-<li id="menu-3" class="menu-item-3 "><a href="resume.html" >My Resume</a></li>
-<li id="menu-4" class="menu-item-4 "><a href="contact.html" >Contact us</a>
-</li>
-</ul></font>
-</nav>
-</div>
-</nav></div>
-<div id="sidebar-a">
-<center>
-<h1><u><b>Programming</b></u></h1>
+    <title>Home &middot; Manojmantra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<p>C(0)
-<p>C++(0)
-<p>java(0)
-<p><a href="pyth.html"><font color ="brown">python(1)</font></a></p>
-</center>
-</div>
-<nav id="content">
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+
+      }
+      #footer {
+        background-color: #645543;
+        
+      
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+ 
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      #wrap > .container {
+        padding-top: 60px;
+      }
+      .container .credit {
+        margin: 20px 0;
+        color : black;
+        font: italic blue normal 100% 'Times New Roman', Times, serif;
+      }
+
+      code {
+        font-size: 80%;
+      }
+
+
+      
+
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+ </head>
+
+  <body>
+ <!-- Part 1: Wrap all page content here -->
+  <div id="wrap">
+
+ <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">Manojmantra</a>
+          <div class="nav-collapse collapse">
+            
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div><!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+         <h1><font = "Arial" color="black" size = "12"><b>Manojmantra</b></font></h1>
+        </div>
 <div class="image">
-  <img alt="" src="https://monuvision.appspot.com/static/mee_ig1.png" style="border.thick solid red" height="300" width="400" align=right>
+  <img alt="" src="mee_ig1.png" style="border.thick solid red" height="300" width="400" align=right>
 </div>
-<h3><font = "Arial" color="purple"><b><u>About Manojmantra</u></b></font></h3>
-<p><font color= "black">Manojmantra</font> welcomes you all.<font color= "black">Manojmantra</font> is 
-launched on 20th October 2012 with a great enthusiasm and certain purpose.
-Here, readers will be updated about latest tech globe ,ethical hacking 
-related topics, can get different programs avialable in different languages and 
-many more..........</p>
-<p>Lastly I will say,<font color="red"> "Feel It My Way"</font>......</p>
-<br>
-<br>
-</nav>
-<div class="foot">
-<nav id="footer">
+        <p class="lead"><font size = "6">
 
-<table align="center" width="100%" border="0" cellpadding="1" cellspacing="1">
-<tr>
-<td align="left" width="33%" style="color:blue; padding-left:5px;"><script type="text/javascript">
-document.write ('<p> <span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
-if (document.getElementById) onload = function () {
-  setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
-}
-</script>
-</td>
-<td align="center" width="33%" style="color:blue;"> </td>
-<td align="right" width="33%" style="color:blue; padding-right:5px;">Site Updated On : 03/11/2012</td>
-</tr></table>
-<br>
-<h4><center>Developed By : Manoj Kumar Singh (Comp. Engg.)</center><h4>
-</nav></div>
-</body>
+Manojmantra welcomes you all. 
+
+Manojmantra is launched on 20th October 2012 with a great enthusiasm and 
+
+certain purpose. Here, readers will be updated about latest tech globe ,
+ethical hacking related topics, can get different programs
+ avialable in different languages and many more..........</p>
+<p>Lastly I will say,"Feel It My Way"......</p></font>
+       
+      </div>
+
+
+      <div id="push"></div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+
+      <p class="muted credit"><b>Designed and Developed  : Manoj Kumar Singh (Comp. Engg.)</b></p>
+      </div>
+    </div>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
 </html>
